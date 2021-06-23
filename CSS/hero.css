@@ -1,0 +1,42 @@
+.hero-image {
+    background-image: url(../assets/hero.jpg);
+    margin-top: 10px;
+    background-color: lightgreen;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    font-weight: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+  }
+  body{
+      background-color:#a6f1a6 ;
+  }
+
+  footer{
+    background-color:#a6f1a6;
+    height: fit-content;
+  }
+
+  h1{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  img{
+    width: 250px;
+  }
+
+  @media only screen and (max-width: 800px){
+    img{
+      width: 150px;
+    }
+  }

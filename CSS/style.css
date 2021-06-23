@@ -1,0 +1,125 @@
+body{
+    background-color:#a6f1a6  ;
+    font-size: 25px;
+    font-family: cursive;
+}
+h1{text-align: center}
+
+input {
+    width: 15%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+select{
+    height: 30px;
+    width:150px;
+    font-size: 20px;
+}
+option{
+    
+    height: 50px;
+    margin: 8px 0;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #2C6700; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  .rest button {
+    background-color: #2C6700; /* Green */
+    border: none;
+    
+    margin: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+   
+  }
+  .rest a {
+    text-decoration: none;
+    
+}
+.rest a:link, a:visited {
+    color: white;
+}
+.rest{
+    display: flex;
+    margin-top: 1%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.noNumbers ol li {
+    list-style-type: none;
+}
+
+.bold{
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: 40px;
+}
+table, td, th {
+    border: 1px solid black;
+  }
+table{
+    margin-left: 40px;
+    border-collapse: collapse;
+    
+}
+
+td {
+    padding: 1%;
+    width: 150px;
+    text-align: center;
+}
+th {
+    margin-left: 1%;
+    text-align: center;
+}
+ p{
+    margin-left: 40px;
+}
+.lokacije ol{
+    margin-left: 40px;
+}
+
+.lokLova label{
+    margin-left: 40px;
+}
+
+.important {
+    margin-left: 40px;
+}
+
+.title{
+    width: max-content;
+    padding: 10px;
+    font-size: 35px;
+}
+
+
+
+.context {
+    width: max-content;
+    text-align: left;
+
+}
+.created{
+    font-size: 20px;
+}
+
+  
